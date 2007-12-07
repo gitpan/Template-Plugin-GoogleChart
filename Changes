@@ -1,0 +1,10 @@
+---
+global:
+  name: Template-Plugin-GoogleChart
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2007-12-07T21:44:16Z
+    tags: []
+    version: 0.01
