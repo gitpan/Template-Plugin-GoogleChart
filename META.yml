@@ -1,25 +1,32 @@
---- 
-abstract: ~
-author: 
-  - "{% ELSE %}"
-build_requires: 
-  Test::Compile: 0
+---
+abstract: 'Using Google::Chart as a template plugin'
+author:
+  - 'Marcel GrE<uuml>nauer, C<< <marcel@cpan.org> >>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
   Test::Differences: 0
-  Test::More: 0
-  UNIVERSAL::require: 0
+  Test::More: 0.70
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: Module::Install version 0.68
+generated_by: 'Module::Install version 0.91'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: Template-Plugin-GoogleChart
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-requires: 
+    - xt
+requires:
   Google::Chart: 0
   Template: 0
   perl: 5.6.0
-version: 0.01
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Template-Plugin-GoogleChart
+  homepage: http://search.cpan.org/dist/Template-Plugin-GoogleChart/
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/hanekomu/template-plugin-googlechart.git
+version: 0.02
